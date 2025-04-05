@@ -1,6 +1,6 @@
-package ObserverDesignPattern.Observer;
+package Behavioral.ObserverDesignPattern.Observer;
 
-import ObserverDesignPattern.Observable.StockObservable;
+import Behavioral.ObserverDesignPattern.Observable.StockObservable;
 
 public class MobileNotificObserver implements NotificationObserver{
     String phoneNumber;

@@ -1,4 +1,4 @@
-package StrategyDesignPattern;
+package Behavioral.StrategyDesignPattern;
 
 public interface NotificationStrategy {
     void sendNotification();

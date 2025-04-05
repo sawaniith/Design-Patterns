@@ -1,10 +1,10 @@
 package Behavioral.ObserverDesignPattern;
 
-import ObserverDesignPattern.Observable.IphoneObservable;
-import ObserverDesignPattern.Observable.StockObservable;
-import ObserverDesignPattern.Observer.EmailNotificObserver;
-import ObserverDesignPattern.Observer.MobileNotificObserver;
-import ObserverDesignPattern.Observer.NotificationObserver;
+import Behavioral.ObserverDesignPattern.Observable.IphoneObservable;
+import Behavioral.ObserverDesignPattern.Observable.StockObservable;
+import Behavioral.ObserverDesignPattern.Observer.EmailNotificObserver;
+import Behavioral.ObserverDesignPattern.Observer.MobileNotificObserver;
+import Behavioral.ObserverDesignPattern.Observer.NotificationObserver;
 
 public class ODPMain {
     public static void main(String[] args) {

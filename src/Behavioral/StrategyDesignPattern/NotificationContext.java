@@ -1,4 +1,4 @@
-package StrategyDesignPattern;
+package Behavioral.StrategyDesignPattern;
 
 public class NotificationContext {
     NotificationStrategy strategy;
