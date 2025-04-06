@@ -3,9 +3,11 @@ package Behavioral.ObserverPattern.Observable;
 import Behavioral.ObserverPattern.Observer.NotificationObserver;
 
 public interface StockObservable {
-    public void add(NotificationObserver observer);
-    public void remove(NotificationObserver observer);
-    public void notifySubscribers();
-    public void setStockCount(int stockCount);
-    public int getStockCount();
+    void add(NotificationObserver observer);
+    void remove(NotificationObserver observer);
+    void notifySubscribers();
+    void setStockCount(int stockCount);
+    int getStockCount();
+    String getProductName(); // NEW method
 }
+
