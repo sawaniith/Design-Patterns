@@ -1,5 +1,5 @@
 package Behavioral.StrategyPattern;
 
 public interface NotificationStrategy {
-    void sendNotification();
+    void sendNotification(String message);
 }
