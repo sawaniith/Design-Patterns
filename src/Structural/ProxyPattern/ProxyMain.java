@@ -14,5 +14,9 @@ public class ProxyMain {
         paymentService.makePayment("sawan", 400); // Will be rate-limited
 
         paymentService.makePayment("john", 500); // New user - allowed
+
+        //proxy vs facade
+        //proxy only takes care of a particular object. Each object will have their own proxy.
+        //facade can take care of multiple objects together
     }
 }
