@@ -1,4 +1,4 @@
-package Behavioral.StrategyDesignPattern;
+package Behavioral.StrategyPattern;
 
 public class EmailStrategy implements NotificationStrategy{
     @Override

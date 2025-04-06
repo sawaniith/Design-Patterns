@@ -1,4 +1,4 @@
-package Behavioral.StrategyDesignPattern;
+package Behavioral.StrategyPattern;
 
 public class SmsStrategy implements NotificationStrategy {
     @Override

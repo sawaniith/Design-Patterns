@@ -1,4 +1,4 @@
-package Creational.FactoryDesignPattern;
+package Creational.FactoryPattern;
 
 public interface Notification {
     void notifyUser();
